@@ -1,0 +1,76 @@
+body, html {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: black;
+    color: white;
+    margin: 0;
+    height: 100%;
+}
+
+.container-fluid {
+    padding: 2rem;
+}
+
+#heading {
+    border-bottom: solid 1px grey;
+    text-align: center;
+}
+
+#nav {
+    text-align: center;
+}
+
+#nav li {
+    display: inline;
+    margin: 3rem;
+    line-height: 0.85;
+}
+
+#nav a {
+    color: white;
+    padding: 1rem;
+}
+
+#nav a:hover {
+    text-decoration: none;
+    background: rgb(216, 0, 151);
+    color: black;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("suq-madiq.png");
+
+  /* Set a specific height */
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+#manifest-tier-1 {
+    border-bottom: solid 1px white;
+}
+
+#footer {
+    background: rgb(49, 49, 49);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#footer a {
+    color: rgb(255, 166, 0);
+}
+
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
